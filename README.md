@@ -1,5 +1,5 @@
 
-<img src="https://storage.googleapis.com/yakka-logos/logo_cumulus.png" align="center" width="160">
+<img src="https://storage.googleapis.com/product-logos/logo_cumulus.png" align="center" width="160">
 
 Cumulus is a high-level framework that makes developing application logic on top of Firebase quick and simple.
 
