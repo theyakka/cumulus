@@ -13,7 +13,7 @@ dependencies:
   firebase_admin_interop: ^1.0.0-dev
   dazza:
     git:
-      url: git@github.com:theyakka/dazza.git
+      url: https://github.com/theyakka/dazza.git
 
 
 dev_dependencies:
