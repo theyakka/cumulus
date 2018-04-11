@@ -1,0 +1,20 @@
+name: cumulus
+version: 1.0.0
+author: Yakka, LLC <hello@theyakka.com>
+description: Firebase Functions.
+homepage: https://github.com/theyakka/cumulus
+
+environment:
+  sdk: '>= 1.23.0 <= 2.0.0'
+
+dependencies:
+  meta: ^1.1.2
+  firebase_functions_interop: ^1.0.0-dev
+  firebase_admin_interop: ^1.0.0-dev
+  dazza:
+    git:
+      url: git@github.com:theyakka/dazza.git
+
+
+dev_dependencies:
+  test: ^0.12.33
