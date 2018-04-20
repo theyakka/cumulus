@@ -7,7 +7,12 @@ Cumulus is a high-level framework that makes developing application logic on top
 [![Dart Version](https://img.shields.io/badge/Dart-2.0+-lightgrey.svg)](https://dartlang.org/)
 
 # Features
-
+Cumulus has the following bonza features:
+- Simple, straightforward configuration of function endpoints
+- Routable endpoints
+- Common interface for routable and non-routable endpoints
+- Named parameters for routable endpoints (e.g.: `/users/:id`)
+- Querystring parameter parsing
 
 # Installing
 
