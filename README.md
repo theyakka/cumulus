@@ -13,6 +13,7 @@ Cumulus has the following bonza features:
 - Common interface for routable and non-routable endpoints
 - Named parameters for routable endpoints (e.g.: `/users/:id`)
 - Querystring parameter parsing
+- Build on the awesome [firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) library
 
 # Installing
 
@@ -82,6 +83,8 @@ Yakka is the premier Flutter agency and a kick-ass product company. We focus on 
 # Outro
 
 ## Credits
+
+Without the [firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) library by [Anatoly Pulyaevskiy](https://github.com/pulyaevskiy) none of this would be possible. Go and star the project!
 
 Cumulus is sponsored, owned and maintained by [Yakka LLC](http://theyakka.com). Feel free to reach out with suggestions, ideas or to say hey.
 
