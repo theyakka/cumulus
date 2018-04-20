@@ -29,7 +29,11 @@ class CumulusApp {
   /// library. You should use this type of handler if you don't need any kind
   /// of advanced routing capabilities.
   void addHandler(String function, {@required FunctionHandler handler}) {
-    functions[function] = FirebaseFunctions.https
+    var functionName = function;
+    if (function.startsWith("/")) {
+      functionName = functionName.substring(1);
+    }
+    functions[functionName] = FirebaseFunctions.https
         .onRequest((request) => _directHandler(request, handler));
   }
 
