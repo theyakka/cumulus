@@ -8,6 +8,8 @@ environment:
   sdk: '>= 1.23.0 <= 2.0.0'
 
 dependencies:
+  convert: ^2.0.1
+  io: ^0.3.2
   meta: ^1.1.2
   firebase_functions_interop: ^1.0.0-dev
   firebase_admin_interop: ^1.0.0-dev
