@@ -74,7 +74,11 @@ Give it a try and if you like it, let us know! Either way, we love feedback.
 
 ## Has it been tested in production? Can I use it in production?
 
-The code here is derived from the code that was written for Fluro (https://github.com/goposse/fluro). Fluro has been battle tested in the hamilton app in production and is used by millions of people. Cumulus is also in use serving Firebase Functions in other apps. That said, code is always evolving. We plan to keep on using it in production but we also plan to keep on improving it. If you find a bug, let us know!
+The code here is built on top of (mostly) two other libraries: 
+- [dazza](https://github.com/theyakka/dazza)
+- [firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop)
+
+The Yakka [website](https://theyakka.com) uses this code in production and Yakka uses it for both internal and external clients as well. That said, code is always evolving. We plan to keep on using it in production but we also plan to keep on improving it. If you find a bug, let us know!
 
 ## Who the f*ck is Yakka?
 
@@ -84,7 +88,7 @@ Yakka is the premier Flutter agency and a kick-ass product company. We focus on 
 
 ## Credits
 
-Without the [firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) library by [Anatoly Pulyaevskiy](https://github.com/pulyaevskiy) none of this would be possible. Go and star the project!
+Again, without the [firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) library by [Anatoly Pulyaevskiy](https://github.com/pulyaevskiy) none of this would be possible. Go and star the project!
 
 Cumulus is sponsored, owned and maintained by [Yakka LLC](http://theyakka.com). Feel free to reach out with suggestions, ideas or to say hey.
 
