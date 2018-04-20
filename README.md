@@ -13,7 +13,6 @@ Cumulus has the following bonza features:
 - Common interface for routable and non-routable endpoints
 - Named parameters for routable endpoints (e.g.: `/users/:id`)
 - Querystring parameter parsing
-- Build on the awesome [firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) library
 
 # Installing
 
