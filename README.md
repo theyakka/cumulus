@@ -35,8 +35,31 @@ import 'package:cumulus/cumulus.dart';
 
 # Getting started
 
-TBD
+TBD - how to set up a project using dart
 
+Next, we need to create an instance of a `CumulusApp` in the `main` function of your `index.dart` file. Something like:
+```dart
+void main() {
+  CumulusApp app = new CumulusApp.appWithDefaults();
+  app.addHandler("/welcome", handler: welcomeHandler);
+}
+```
+
+Once this is done, you can define your handlers. For now we will add it to the `index.dart` file directly. Our handler looks like:
+```dart
+dynamic welcomeHandler(HandlerContext context, Parameters parameters) {
+  final res = context.response;
+  res.statusCode = 200;
+  res.headers.contentType = ContentType.JSON;
+  res.write(json.encode({
+    "message": "HELLO!!!!",
+  }));
+  res.close();
+  return null;  // we don't want to return any thing because it isn't routable and will be ignored
+}
+```
+
+At this point you can run the build and then deploy your function.
 
 # FAQ
 
