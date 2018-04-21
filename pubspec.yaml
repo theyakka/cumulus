@@ -5,7 +5,7 @@ description: Firebase Functions.
 homepage: https://github.com/theyakka/cumulus
 
 environment:
-  sdk: '>= 1.23.0 <= 2.0.0'
+  sdk: '>=2.0.0-dev <= 2.0.0'
 
 dependencies:
   convert: ^2.0.1
