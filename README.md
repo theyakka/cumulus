@@ -51,7 +51,7 @@ void main() {
 
 Once this is done, you can define your handlers. For now we will add it to the `index.dart` file directly. Our handler looks like:
 ```dart
-dynamic welcomeHandler(HandlerContext context, Parameters parameters) {
+welcomeHandler(HandlerContext context, Parameters parameters) {
   final res = context.response;
   res.statusCode = 200;
   res.headers.contentType = ContentType.JSON;
@@ -59,7 +59,6 @@ dynamic welcomeHandler(HandlerContext context, Parameters parameters) {
     "message": "HELLO!!!!",
   }));
   res.close();
-  return null;  // we don't want to return any thing because it isn't routable and will be ignored
 }
 ```
 
