@@ -19,7 +19,7 @@ Cumulus has the following bonza features:
 **Cumulus requires Dart 2.0+.**. Cumulus requires the new `build_runner` system to compile with dart2js/dartdevc and these are not available in the Dart 1.x toolchain. You should add the following to your pubspec:
 ```yaml
 environment:
-  sdk: '>= 2.0.0-dev <= 2.0.0'
+  sdk: '>= 2.0.0-dev <3.0.0'
 ```
 
 To install, add the following line to the `dependencies` section of your `pubspec.yaml` file:
@@ -28,7 +28,6 @@ To install, add the following line to the `dependencies` section of your `pubspe
 dependencies:
   ...
   cumulus: ^1.0.0
-
 ```
 
 You can then import cumulus using:
